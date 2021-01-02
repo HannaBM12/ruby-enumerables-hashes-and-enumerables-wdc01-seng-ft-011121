@@ -11,4 +11,5 @@ def select_winner(passengers)
   passengers.each { |key, value|
     key == "suite_a" && value[0] == "A"
   }
+  value
 end
