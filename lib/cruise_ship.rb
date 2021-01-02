@@ -10,7 +10,7 @@ def select_winner(passengers)
   # add the code snippet here!
   passengers.each { |key, value|
     key == "suite_a" && value[0] == "A"
-    p value
+    value
   }
 
 end
